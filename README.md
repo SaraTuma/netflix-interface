@@ -13,7 +13,7 @@ Neste projeto foram abordadas estruturas de layout, técnicas de CSS3 com contai
 **Início do Site • Responsividade da Página** (*demonstração*) 
 <img src="https://github.com/narelo/netflix-interface/blob/main/img/inicio.JPG?raw=true" alt="inicio-pag" width="700px">
 
-<p><b>me sigam para mais dicas</b> <p align="right"><img src="https://github.com/narelo/netflix-interface/blob/main/img/avatar.png?raw=true" width="100px"></p></p>
+<br>me sigam para mais dicas</b> <p align="right"> <img src="https://github.com/narelo/netflix-interface/blob/main/img/avatar.png?raw=true" width="100px" align="right">
 
 
 
