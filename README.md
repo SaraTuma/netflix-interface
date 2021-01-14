@@ -1,4 +1,5 @@
 <img src="https://logodownload.org/wp-content/uploads/2014/10/netflix-logo-1-1.png" alt="logo" width="130px">
+
 <hr>
 
 #### Um  Desafio Digital Innovation One
@@ -13,8 +14,9 @@ Neste projeto foram abordadas estruturas de layout, técnicas de CSS3 com contai
 **Início do Site • Responsividade da Página** (*demonstração*) 
 <img src="https://github.com/narelo/netflix-interface/blob/main/img/inicio.JPG?raw=true" alt="inicio-pag" width="700px">
 
-<p align="right"><b>me sigam para + dicas</b></p>
+<hr>
 
+<p align="right"><b>me sigam para + dicas</b></p>
 <img src="https://github.com/narelo/netflix-interface/blob/main/img/avatar.png?raw=true" width="100px" align="right">
 
 
