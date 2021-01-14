@@ -1,8 +1,8 @@
-<img src="https://logodownload.org/wp-content/uploads/2014/10/netflix-logo-1-1.png" alt="logo" width="130px">
+<img src="https://logodownload.org/wp-content/uploads/2014/10/netflix-logo-1-1.png" alt="logo" width="130px" align="center">
 <hr>
 
-#####Um  Desafio Digital Innovation One
-######Recriando a Interface do Netflix 
+##### Um  Desafio Digital Innovation One
+###### Recriando a Interface do Netflix 
 Recriação da interface do principal site de streaming mundial, utilizando tecnologias simples como HTML5, CSS3 e JavaScript. 
 
 Neste projeto foram abordadas estruturas de layout, técnicas de CSS3 com containers e variáveis, posicionamento de elementos com Flexbox, plugins Jquery e funcionalidades do JavaScript.
