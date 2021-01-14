@@ -1,0 +1,232 @@
+:root{/*raiz do documento*/
+    /*declaração de variáveis - cores do documento*/
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+*{/*reset*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* configuração elementos base */
+body{/*elementos base*/
+   background: var(--preta);
+   font-family: 'Arial', Times, serif;
+   color: rgb(231, 231, 231);
+}
+
+header .container{/*configurações do container com o logo e o menu*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{/*configurações do logo*/
+    width: 115px;
+}
+
+header nav a{/*estilização do menu de navegação*/
+    text-decoration: none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{/*variação de cor do texto ao passar o mouse por cima, no menu*/
+    color:#fff;
+}
+
+/* configurações capa principal */
+.capa-principal{
+    /*tamanho da fonte dentro dessa div*/
+    font-size: 16px;
+
+    /*película gradiente da capa*/
+    background: linear-gradient(rgba(107, 107, 107, 0.1), rgba(0,0,0,.80)100%),  url('/img/capa-lcdp.jpeg');
+ 
+    /*tamanho capa principal*/
+    height: 400px;
+    background-size: cover;
+
+    /*posicionamento dos botões*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.capa-principal .descricao{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.capa-principal .titulo{
+    margin-top: 10%;
+    width: 400px;
+}
+
+.capa-principal .container{
+    width: 70%;
+}
+
+/* configuração botões */
+.botoes .botao1{
+    border: none;
+    color: black; /*cor da fonte*/
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255);
+
+    font-size: 14px; /*tamanho da fonte do botão*/
+    font-weight: bold; /*fonte em negrito*/
+    padding: 10px 25px; /*distância do texto a borda*/
+    margin-right: 5px; /*margem entre os botões*/
+
+    cursor: pointer; /*identificação de botão*/
+    transition: .3s ease all; /*transição de animação*/
+}
+
+.botao1:hover{/*variação de cor animação do botão*/
+    background-color:rgb(194, 193, 193);
+}
+
+.botoes i{/*espaçamento entre o ícone e o texto*/
+    margin-right: 8px;
+}
+
+.botoes .botao2{
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(160, 160, 160, 0.5);
+
+    font-size: 14px;
+    font-weight: bold; 
+    padding: 10px 25px; 
+    cursor: pointer;
+    transition: .3s ease all; 
+}
+
+.botao2:hover{
+    background-color:rgba(221, 217, 217, 0.2);
+}
+
+.container{
+    margin-left: 50px;
+}
+
+.categoria{
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold; 
+}
+
+/*configurações carrossel de filmes*/
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel-filmes{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+/* box de mais informações*/
+#modal{/*box principal*/
+    position: absolute;
+    align-items: center;
+    background: linear-gradient(rgba(107, 107, 107, 0.2), rgba(0,0,0,.70)100%),  url('/img/info.jpg');
+    background-size: cover;
+    display: flex;
+    top: 30px;
+    left: 400px;
+    height: 450px;
+    width: 800px;
+}
+
+#modal .content-left{/*lado esquerdo do box*/
+    margin-left: 20px;
+    margin-top: 200px;
+    width: 450px;
+    color: white;
+}
+
+/* estilização infos do box*/
+.content-left .name{
+    width: 350px;
+}
+
+.content-left .sinopse{/*texto sinopse*/
+    font-size: 15px; 
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.content-left .infos{/*informações de elenco e criador*/
+    font-size: 14px; 
+    margin-top: 10px;
+}
+
+.content-left .faixa{/*faixa etária*/
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.content-right a{/*botão fechar*/
+    background-color: #a7a7a722;
+    text-decoration: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 400px;
+    margin-left: 290px;
+    transition: 400ms;
+}
+
+.content-right a:hover{/*animação botão fechar*/
+    background: rgba(12, 11, 11, 0.5);
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#modal.hide{
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
